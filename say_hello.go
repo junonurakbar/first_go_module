@@ -19,7 +19,7 @@ func SayHello(name string) (string, error) {
 func randomFormat() string {
 	formats := []string{
 		"Hey bruh %v",
-		"Haven't you had brekkie yet?",
+		"Haven't you had brekkie yet %v?",
 		"JDON my soul %v '-')/",
 	} 
 	// Return a randomly selected message format by specifying
